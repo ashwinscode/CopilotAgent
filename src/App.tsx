@@ -1,7 +1,7 @@
 function App() {
   return (
     <main className="app">
-      <h1>CopilotAgent</h1>
+      <h1>Awesome Copilot Agent</h1>
     </main>
   )
 }
