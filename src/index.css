@@ -1,7 +1,5 @@
 :root {
   font-family: system-ui, sans-serif;
-  color: #111;
-  background: #fff;
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,11 +12,32 @@ body {
 
 .app {
   display: grid;
+  gap: 1rem;
   min-height: 100vh;
   place-items: center;
+}
+
+.light {
+  color: #111;
+  background: #fff;
+}
+
+.dark {
+  color: #fff;
+  background: #111;
 }
 
 h1 {
   margin: 0;
   font-size: 2rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: 0.4rem;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
 }
